@@ -10,8 +10,8 @@ import ArchiveNotes from './components/ArchiveNotes/ArchiveNotes';
 function App() {
   return (
     <div>
+      <NavBar/>
       <Switch>
-        <NavBar/>
         <Route exact path="/" component={Notes}/>
         <Route exact path="/create" component={NewNote}/>
         <Route exact path="/update/:id" component={UpdateNote}/>
