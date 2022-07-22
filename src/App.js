@@ -13,9 +13,12 @@ function App() {
       <Switch>
         <NavBar/>
         <Route exact path="/" component={Notes}/>
-        <Route path="/create" component={NewNote}/>
-        <Route path="/update/:id" component={UpdateNote}/>
-        <Route path="/archive" component={ArchiveNotes}/> 
+        <Route exact path="/create" component={NewNote}/>
+        <Route exact path="/update/:id" component={UpdateNote}/>
+        <Route exact path="/archive" component={ArchiveNotes}/> 
+        <Route path="*">
+          <Redirect to="/"/>
+        </Route>
       </Switch>
     </div>
   );
