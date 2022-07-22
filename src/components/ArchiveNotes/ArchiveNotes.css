@@ -1,0 +1,7 @@
+.container-notes-archived{
+    max-width: 100vw;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

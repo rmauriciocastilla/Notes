@@ -1,0 +1,85 @@
+.container-note{
+    margin: 10px 0px;
+    width: 25vw;
+    height: auto;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.48);
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    text-align: justify;
+}
+
+.container-decision{
+    margin: 10px 0px;
+    width: 25vw;
+    height: auto;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.48);
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.button-yes{
+    background: rgb(255, 45, 45);
+    padding: 10px;
+    margin: 6px;
+    font-size: 1.5rem;
+}
+
+.button-no{
+    background: rgb(90, 255, 45);
+    padding: 10px;
+    margin: 6px;
+    font-size: 1.5rem;
+}
+
+.container-icons{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    max-height: 100%;
+    margin-left: 10px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.cont-icon-delete{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #FF3841;
+    width: 50px;    
+    height: 50px;
+}
+
+.cont-icon-edit{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 50px;    
+    height: 50px;
+}
+
+.cont-icon-archive{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #7D7D7D;
+    width: 50px;    
+    height: 50px;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+i{
+    display: block;
+    margin: auto;
+    width: 50px;
+}

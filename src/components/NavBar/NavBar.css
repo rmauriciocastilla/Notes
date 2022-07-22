@@ -1,0 +1,28 @@
+nav{
+    background-color: #8C8CFF;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 20px 0px;
+
+}
+
+.navlink{
+    text-transform: uppercase;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border: 1px black solid;
+    border-radius: 1.5em
+}
+
+.navlink:hover{
+    background-color: black;
+    color: white;
+}
+
+.navlink{
+    transition: background-color 0.5s linear 0s, color 0.5s linear 0s;
+
+}
